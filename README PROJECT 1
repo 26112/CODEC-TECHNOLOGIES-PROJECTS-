@@ -1,0 +1,45 @@
+# 📊 Netflix Data Analysis: Exploratory Data Analysis (EDA)
+
+This project performs **Exploratory Data Analysis (EDA)** on the Netflix dataset to gain insights into content distribution, popular genres, and countries contributing to the Netflix catalog.
+
+## 📌 Objective
+
+Analyze Netflix titles to answer:
+- What is the distribution of content over the years?
+- Which genres are most popular?
+- Which countries produce the most content?
+- What is the trend of movies vs TV shows over time?
+
+## 📂 Dataset
+
+- **Source**: [Netflix Titles Dataset](https://www.kaggle.com/shivamb/netflix-shows)
+- **Format**: CSV
+- **Size**: ~6,000+ rows
+
+## 🧹 Data Preprocessing
+
+- Null value handling
+- Data type conversion (e.g., `date_added`)
+- Extracting year from date
+- Splitting multiple genres and countries
+
+## 📈 Key Analysis
+
+- 📅 Titles released per year
+- 🎭 Most frequent genres
+- 🌎 Country-wise distribution
+- 📺 TV Shows vs 🎬 Movies trends
+
+## 🛠️ Tools & Libraries
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## 📌 How to Run
+
+1. Clone the repo
+2. Install required libraries:
+   ```bash
+   pip install pandas matplotlib seaborn
